@@ -44,7 +44,7 @@ if(isset($_POST['action']) && ($_POST['action']=='delete')){
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1>Xoá nhân viên </h1>
+            <h1>Xoá Sản phẩm </h1>
 
             <div>
                 <form name="edit" action="" method="post">
@@ -53,7 +53,7 @@ if(isset($_POST['action']) && ($_POST['action']=='delete')){
                     <div class="form-group">
                         <label>Tên : <?php echo $ten ?></label>
                     </div>
-                    <button type="submit" class="btn btn-delete">Xoá nhân viên</button>
+                    <button type="submit" class="btn btn-delete">Xoá Sản Phẩm</button>
                 </form>
             </div>
         </div>
